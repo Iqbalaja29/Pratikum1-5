@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>Form Pesanan Pizza</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Form Pesanan Pizza</legend>
+
+            <h1>Selamat Datang Pizza</h1>
+            <p>Silahkan isi pesanan anda disini!</p>
+
+            <form action="Pesanan.html">
+                <table>
+                    <head>
+                        <tr>
+                            <td>Informasi anda</td>
+                        </tr>
+                    </head>
+                    <tbody>
+                        <tr>
+                            <td><label for="nama">Nama :</label></td>
+                            <td><input type="text" id="alamat" name="nama" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="alamat">Alamat :</label></td>
+                            <td><input type="text" id="alamat" name="alamat" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="notelp">No telephon :</label></td>
+                            <td><input type="text" id="number" name="notelp" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email :</label></td>
+                            <td><input type="text" id="email" name="Email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="note">Notes pemesanan :</label></td>
+                            <td><textarea name="note" id="note"required
+                                placeholder="Tidak lebih dari 400 karakter"></textarea></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h4>Pilih salah satu</h4>
+
+                <label for="crust">Crust</label><br>
+
+                <input type="radio" id="crust" name="crust" value="cs">
+                <label for="cs">Classic White</label><br>
+                <input type="radio" id="crust" name="crust" value="mg">
+                <label for="mg">Multigrain</label><br>
+                <input type="radio" id="crust" name="crust" value="cf"> 
+                <label for="cf">Cheese Stuffed</label><br>
+                <input type="radio" id="crust" name="crust" value="gf">
+                <label for="gf">Gluten Free</label><br>
+
+                <label for="">Topping (Pilih lebih dari 1)</label><br>
+
+                <input type="checkbox" id="" name="topping" value="rs">red sauce <br>
+                <input type="checkbox" id="" name="topping" value="mz">Mozarella <br>
+                <input type="checkbox" id="" name="topping" value="bf">Beef <br>
+                <input type="checkbox" id="" name="topping" value="pp">Paperoni <br>
+
+                <h4>Number</h4>
+                <label for="">Pesanan Pizza</label>
+                <input type="number" min="1" max="10">
+                <br><br>
+
+                <button type="submit" value="pesan">Pesan Sekarang</button>
+                <button type="reset" value="reset">Reset</button>
+
+
+
+        </fieldset>
+        
+    </body>
+</html>
